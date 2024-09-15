@@ -5,24 +5,20 @@ export default function Home() {
   return (
     <>
       <div className="h-full w-full relative p-4 bg-yellow-300">
-        {/* Container with background image */}
         <div
           className="bg-green-900 h-96 m-4 flex justify-start items-center text-white"
           style={{
             backgroundImage: 'url("/header.jpg")',
-            backgroundSize: 'cover', // Ensures image covers the entire div
-            backgroundPosition: 'center', // Center the image
+            backgroundSize: 'cover', 
+            backgroundPosition: 'center', 
           }}
         >
-          {/* Content on top of the background image */}
           <div className="p-4 text-left ml-8">
             <h1 className="text-4xl font-bold mb-4">Header 1</h1>
             <h2 className="text-2xl">Header 2</h2>
           </div>
         </div>
-        {/* <div className=" bg-yellow-400 h-20 p-2 m-4 flex justify-center items-center text-white">
-          NGO
-        </div> */}
+        
  <div className="bg-emerald-900 h-40 m-4 p-5 flex justify-center  text-white relative ">
           <h2 className=" text-yellow-300 font-bold underline text-xl">About Us</h2>
         </div>
