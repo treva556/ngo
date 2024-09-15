@@ -4,16 +4,21 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <div className="h-full w-full relative justify-around p-4 bg-yellow-300">
-      <div className=" bg-green-900 h-96 m-4 flex justify-center items-center text-white">
-          {/* Responsive Image size adjustments */}
-          <Image 
-            src="/header.jpg" 
-            alt="Logo" 
-            width={400} 
-            height={400} 
-            className=" mt-44 sm:w-[800px] sm:h-[400px] md:w-[600px] md:h-[400px] lg:w-[2000px] lg:h-[600px]" 
-          />
+      <div className="h-full w-full relative p-4 bg-yellow-300">
+        {/* Container with background image */}
+        <div
+          className="bg-green-900 h-96 m-4 flex justify-start items-center text-white"
+          style={{
+            backgroundImage: 'url("/header.jpg")',
+            backgroundSize: 'cover', // Ensures image covers the entire div
+            backgroundPosition: 'center', // Center the image
+          }}
+        >
+          {/* Content on top of the background image */}
+          <div className="p-4 text-left ml-8">
+            <h1 className="text-4xl font-bold mb-4">Header 1</h1>
+            <h2 className="text-2xl">Header 2</h2>
+          </div>
         </div>
         {/* <div className=" bg-yellow-400 h-20 p-2 m-4 flex justify-center items-center text-white">
           NGO
@@ -41,16 +46,16 @@ export default function Home() {
         Creating Sustainable Jobs
         </div>
         </div>
-        <div className="flex  justify-center items-center p-8">
+        <div className="   flex  justify-center items-center p-8">
        <h3 >
        Real Impact:
         </h3> 
 
         </div>
-        <div className=" flex  justify-center items-center p-8">
+        <div className=" border border-emerald-900 m-2 flex  justify-center items-center p-8">
        <h4 className=" ">  Get Involved:  </h4>
         </div>
-        <footer className= " flex  justify-center items-center p-8 ">
+        <footer className= " bg-emerald-900 flex  justify-center items-center p-8 ">
           footer
         </footer>
        
