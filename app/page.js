@@ -20,7 +20,7 @@ export default function Home() {
         </div>
         
  <div className="bg-emerald-900 h-40 m-4 p-5 flex justify-center  text-white relative ">
-          <h2 className=" text-yellow-300 font-bold underline text-xl">About Us</h2>
+          <h2 className=" text-yellow-300 font-semibold underline text-xl">About Us</h2>
         </div>
 
         <div className=" h-20 p-2 m-4 mb-8  flex flex-row gap-10 justify-center items-center ">
@@ -52,7 +52,7 @@ export default function Home() {
        <h4 className=" ">  Get Involved:  </h4>
         </div>
         <footer className= " bg-emerald-900 flex  justify-center items-center p-8 ">
-          footer
+          <h5 className=" text-yellow-200 font-semibold text-xl"> footer </h5>
         </footer>
        
        
