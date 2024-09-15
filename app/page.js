@@ -14,21 +14,24 @@ export default function Home() {
           }}
         >
           <div className="p-4 text-left ml-8">
-            <h1 className="text-4xl font-bold mb-4">Header 1</h1>
-            <h2 className="text-2xl">Header 2</h2>
+            <h1 className=" text-yellow-400 text-4xl font-bold mb-4"> KIJANI WELFARE </h1>
+            <h2 className="text-2xl"> Empowering Communities through Education, Water, and Employment </h2>
           </div>
         </div>
         
- <div className="bg-emerald-900 h-40 m-4 p-5 flex justify-center  text-white relative ">
-          <h2 className=" text-yellow-300 font-semibold underline text-xl">About Us</h2>
+        <div className="bg-emerald-900 h-40 m-4 p-5 flex justify-center flex-col items-center  text-white relative ">
+          <h2 className=" text-yellow-300 font-semibold underline text-xl row-span-1">About Us</h2>
+          <p className=" items-center row-span-1"> Kijani Welfare is a non-profit organization dedicated to transforming lives in underprivileged communities by providing access to education, clean water, and sustainable job opportunities.  </p>
         </div>
 
-        <div className=" h-20 p-2 m-4 mb-8  flex flex-row gap-10 justify-center items-center ">
-          <div className=" border border-green-950 flex justify-center  p-6 w-1/2">
-            Our Mission
+        <div className=" p-2 m-4  flex sm:flex-col md:flex-row flex-row gap-10 justify-center items-center ">
+          <div className=" border border-green-950 flex flex-col items-center justify-center  p-6 ">
+            <h6> Our Mission </h6>
+            <p>  "Our mission is to uplift disadvantaged families by ensuring access to quality education, clean water, and dignified employment opportunities."  </p>
           </div>
-          <div className=" border border-green-950 flex  justify-center p-6 w-1/2">
+          <div className=" border border-green-950 flex  flex-col justify-center items-center p-6 ">
             Our Vision
+            <p className="">  "We envision a world where every family has access to the resources they need to thrive, including education, clean water, and stable employment." </p>
           </div>
         </div>
         <div>
