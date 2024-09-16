@@ -20,7 +20,7 @@ export default function Home() {
           </div>
         </div>
         
-        <div className="bg-emerald-900 h-40 m-4 p-5 flex justify-center flex-col items-center text-white relative">
+        <div className="bg-emerald-900  m-4 p-5 flex justify-center flex-col items-center text-white relative">
           <h2 className="text-yellow-300 font-semibold underline text-xl row-span-1">About Us</h2>
           <p className="items-center row-span-1">Kijani Welfare is a non-profit organization dedicated to transforming lives in underprivileged communities by providing access to education, clean water, and sustainable job opportunities.</p>
         </div>
