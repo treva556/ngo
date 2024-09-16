@@ -8,7 +8,7 @@ export default function Home() {
         <div
           className="bg-green-900 h-96 m-4 flex justify-start items-center text-white"
           style={{
-            backgroundImage: 'url("/header.jpg")',
+            backgroundImage: "url('/header.jpg')",
             backgroundSize: 'cover', 
             backgroundPosition: 'center', 
           }}
