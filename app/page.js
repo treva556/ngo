@@ -37,8 +37,28 @@ export default function Home() {
         </div>
 
         <div>
-          <div className="bg-emerald-900 h-20 m-4 p-8 flex justify-center items-center text-white">
-            Bridging the Gap in Education
+          <div className="bg-emerald-900  m-4 p-8 flex flex-col justify-center items-center text-white">
+
+            <h6 className=" text-yellow-200 mb-4"> Bridging the Gap in Education </h6>
+            <div className="flex flex-row justify-center items-center">
+            <div
+          className="bg-green-900 h-64 w-1/2 flex justify-start items-center text-white"
+          style={{
+            backgroundImage: "url('/class.jpg')",
+            backgroundSize: 'cover', 
+            backgroundPosition: 'center', 
+          }}
+        > <div className="p-4 text-left ">
+        {/* <h1 className="text-yellow-400 text-4xl font-bold mb-4">KIJANI WELFARE</h1>
+        <h2 className="text-2xl">Empowering Communities through Education, Water, and Employment</h2> */}
+      </div>
+          </div>
+              <div className=" p-4 w-1/2 items-center">
+                   <p> "We believe education is the key to breaking the cycle of poverty.
+                     Kijani Welfare offers scholarships, school supplies, and after-school programs to ensure that children in underserved communities have the opportunity to learn and succeed." </p>
+              </div>
+            </div>
+
           </div>
           <div className="bg-emerald-900 h-20 m-4 p-8 flex justify-center items-center text-white">
             Clean Water for All
@@ -56,8 +76,14 @@ export default function Home() {
           <h4>Get Involved:</h4>
         </div>
 
-        <footer className="bg-emerald-900 flex justify-center items-center p-8">
-          <h5 className="text-yellow-200 font-semibold text-xl">footer</h5>
+        <footer className="bg-emerald-900 flex flex-row gap-64 justify-center items-center p-8">
+          <div>
+          <h5 className="text-yellow-200 font-semibold text-xl w-1/2">footer</h5>
+          </div>
+
+          <div>
+          <h5 className="text-yellow-200 font-semibold text-xl w-1/2">footer</h5>
+          </div>
         </footer>
         
         {/* This is a comment that was causing an error */}
