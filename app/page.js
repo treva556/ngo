@@ -25,7 +25,7 @@ export default function Home() {
           <p className="items-center row-span-1">Kijani Welfare is a non-profit organization dedicated to transforming lives in underprivileged communities by providing access to education, clean water, and sustainable job opportunities.</p>
         </div>
 
-        <div className="p-2 m-4 flex sm:flex-col md:flex-row flex-row gap-10 justify-center items-center">
+        <div className="p-2 m-4 flex flex-col md:flex-row lg:flex-row gap-10 justify-center items-center">
           <div className="border border-green-950 flex flex-col items-center justify-center p-6">
             <h6>Our Mission</h6>
             <p>&quot;Our mission is to uplift disadvantaged families by ensuring access to quality education, clean water, and dignified employment opportunities.&quot;</p>
