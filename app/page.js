@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <div className="h-full w-full relative p-4 bg-yellow-300">
         <div
-          className="bg-green-900 h-96 m-4 flex justify-start items-center text-white"
+          className="bg-green-900 h-72 md:h-96 lg:h-96  m-4 flex justify-start items-center text-white"
           style={{
             backgroundImage: "url('/header.jpg')",
             backgroundSize: 'cover', 
