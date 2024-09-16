@@ -54,7 +54,7 @@ export default function Home() {
       </div>
           </div>
               <div className=" p-4 w-1/2 items-center">
-                   <p> "We believe education is the key to breaking the cycle of poverty.
+                   <p className="">  "We believe education is the key to breaking the cycle of poverty.
                      Kijani Welfare offers scholarships, school supplies, and after-school programs to ensure that children in underserved communities have the opportunity to learn and succeed." </p>
               </div>
             </div>
@@ -91,3 +91,5 @@ export default function Home() {
     </>
   );
 }
+
+
