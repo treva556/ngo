@@ -65,6 +65,9 @@ export default function Home() {
             Creating Sustainable Jobs
           </div>
         </div>
+        <div>
+          <h7>Amount Raised t& People helped:</h7>
+        </div>
 
         <div className="flex justify-center items-center p-8">
           <h3>Real Impact:</h3>
