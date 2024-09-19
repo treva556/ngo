@@ -1,6 +1,6 @@
 
-
 import Image from "next/image";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -77,15 +77,7 @@ export default function Home() {
           <h4>Get Involved:</h4>
         </div>
 
-        <footer className="bg-emerald-900 flex flex-row gap-64 justify-center items-center p-8">
-          <div>
-            <h5 className="text-yellow-200 font-semibold text-xl w-1/2">footer</h5>
-          </div>
-
-          <div>
-            <h5 className="text-yellow-200 font-semibold text-xl w-1/2">footer</h5>
-          </div>
-        </footer>
+      <Footer/>
         
         {/* This is a comment that was causing an error */}
       </div>
