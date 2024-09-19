@@ -36,9 +36,18 @@ export default function Home() {
           </div>
         </div>
 
+        <div className=" flex flex-row gap-20   justify-center">
+          <div className="p-10 border md:order-last ">
+1
+          </div>
+          <div className=" p-10 border">
+            2
+          </div>
+        </div>
+
         <div className="bg-emerald-900 m-4 flex flex-col justify-center items-center text-white">
     <h6 className="text-yellow-200 mb-4">Bridging the Gap in Education</h6>
-    <div className="flex flex-row w-full">
+    <div className="flex flex-row w-full order-3 md:order-4">
       <div
         className="bg-green-900 flex-1 flex justify-center  items-center"
         style={{
@@ -47,12 +56,9 @@ export default function Home() {
           backgroundPosition: 'center',
         }}
       >
-        <div className="p-4 text-left">
-          {/* <h1 className="text-yellow-400 text-4xl font-bold mb-4">KIJANI WELFARE</h1>
-          <h2 className="text-2xl">Empowering Communities through Education, Water, and Employment</h2> */}
-        </div>
+       
       </div>
-      <div className="p-4 flex-1">
+      <div className="p-4 flex-1 order-4 md:order-3">
         <p className="text-white">
           &quot;We believe education is the key to breaking the cycle of poverty. Kijani Welfare offers scholarships, school supplies, and after-school programs to ensure that children in underserved communities have the opportunity to learn and succeed.&quot;
         </p>
@@ -62,6 +68,9 @@ export default function Home() {
 
         {/* Second Section */}
         <div className="flex flex-col md:flex-row gap-4 bg-emerald-900 p-1 m-4">
+          
+          <h6 className="text-yellow-200 mb-4">Clean Water for All</h6>
+
           <div className="order-3 md:order-4 p-4  flex-1">
             <p className="text-white">
               &quot;We believe education is the key to breaking the cycle of poverty. Kijani Welfare offers scholarships, school supplies, and after-school programs to ensure that children in underserved communities have the opportunity to learn and succeed.&quot;
@@ -69,7 +78,7 @@ export default function Home() {
           </div>
           <div className="order-4 md:order-3 flex-1 flex">
             <div
-              className="bg-green-900 flex-1 flex p-40 justify-center items-center"
+              className="bg-green-900 flex-1 flex p-28 justify-center items-center"
               style={{
                 backgroundImage: "url('/water.jpeg')",
                 backgroundSize: 'cover',
@@ -85,15 +94,20 @@ export default function Home() {
         </div>
 
  {/* Second Section */}
- <div className="flex flex-col md:flex-row gap-4 bg-emerald-900 p-1 m-4">
-          <div className="order-3 md:order-4 p-4  flex-1">
+ <div  className=" bg-emerald-900"> 
+ {/* <h6 className="text-yellow-200 mb-4">Bridging the Gap in Education</h6> */}
+
+ <div className="flex flex-col md:flex-row gap-4 bg-emerald-900 items-center p-1 m-4">
+ <h6 className="text-yellow-200  ">Bridging the Gap in Education</h6>
+
+          <div className="order-3 md:order-4 p-1  flex-1">
             <p className="text-white">
               &quot;We believe education is the key to breaking the cycle of poverty. Kijani Welfare offers scholarships, school supplies, and after-school programs to ensure that children in underserved communities have the opportunity to learn and succeed.&quot;
             </p>
           </div>
           <div className="order-4 md:order-3 flex-1 flex">
             <div
-              className="bg-green-900 flex-1 flex p-36 justify-center items-center"
+              className="bg-green-900 flex-1 flex p-28 justify-center items-center"
               style={{
                 backgroundImage: "url('/class.jpg')",
                 backgroundSize: 'cover',
@@ -106,6 +120,7 @@ export default function Home() {
               </div> */}
             </div>
           </div>
+        </div>
         </div>
 
         <div className="bg-emerald-900 h-20 m-4 p-8 flex justify-center items-center text-white">
