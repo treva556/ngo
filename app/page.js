@@ -36,92 +36,101 @@ export default function Home() {
           </div>
         </div>
 
-        <div className=" flex flex-row gap-20   justify-center">
-          <div className="p-10 border md:order-last ">
-1
-          </div>
-          <div className=" p-10 border">
-            2
-          </div>
-        </div>
+            {/* practice using order */}
+            <div className=" bg-emerald-900 m-3">
 
-        <div className="bg-emerald-900 m-4 flex flex-col justify-center items-center text-white">
-    <h6 className="text-yellow-200 mb-4">Bridging the Gap in Education</h6>
-    <div className="flex flex-row w-full order-3 md:order-4">
-      <div
-        className="bg-green-900 flex-1 flex justify-center  items-center"
-        style={{
-          backgroundImage: "url('/class.jpg')",
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
-      >
-       
-      </div>
-      <div className="p-4 flex-1 order-4 md:order-3">
-        <p className="text-white">
-          &quot;We believe education is the key to breaking the cycle of poverty. Kijani Welfare offers scholarships, school supplies, and after-school programs to ensure that children in underserved communities have the opportunity to learn and succeed.&quot;
-        </p>
-      </div>
-    </div>
-  </div>
+            <div className=" flex justify-center">
+            <h6 className= " mt-6 text-xl  mx-4 text-yellow-200">Bridging the Gap in Education</h6>
+
+            </div>
+
+            <div className="flex flex-col md:flex-row  m-4 rounded-xl  md:gap-4 justify-center items-center">
+              <div className="p-10 border w-full  md:w-1/2 lg:w-1/2 h-1/2 m-4 border-green-950 flex  justify-center md:order-last">
+              <p className="text-white">
+                &quot;We believe education is the key to breaking the cycle of poverty. Kijani Welfare offers scholarships, school supplies, and after-school programs to ensure that children in underserved communities have the opportunity to learn and succeed.&quot;
+              </p>
+              </div>
+              <div className="p-2 border w-full md:w-1/2 lg:w-1/2 h-72 border-emerald-950 m-4 flex">
+                <div
+                  className="flex-1"
+                  style={{
+                    backgroundImage: "url('/class.jpg')",
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                    height: '100%', // Ensure the image covers the full height
+                  }}
+                >
+                  {/* Optional: You can add content here if needed */}
+                </div>
+              </div>
+            </div>
+            </div>
+
+            {/* practice using order */}
+            <div className=" bg-emerald-900 m-3">
+
+            <div className=" flex justify-center">
+            <h6 className= " mt-6 text-xl mx-4 text-yellow-200">Bridging the Gap in Education</h6>
+
+            </div>
+
+            <div className="flex flex-col md:flex-row  m-4 rounded-xl  md:gap-4 justify-center items-center">
+              <div className="p-10 border w-full  md:w-1/2 lg:w-1/2 h-1/2 m-4 border-green-950 flex  justify-center">
+              <p className="text-white">
+                &quot;We believe education is the key to breaking the cycle of poverty. Kijani Welfare offers scholarships, school supplies, and after-school programs to ensure that children in underserved communities have the opportunity to learn and succeed.&quot;
+              </p>
+              </div>
+              <div className="p-2 border w-full md:w-1/2 lg:w-1/2 h-72 border-emerald-950 m-4 flex">
+                <div
+                  className="flex-1"
+                  style={{
+                    backgroundImage: "url('/water.jpeg')",
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                    height: '100%', // Ensure the image covers the full height
+                  }}
+                >
+                  {/* Optional: You can add content here if needed */}
+                </div>
+              </div>
+            </div>
+            </div>
+
+            {/* practice using order */}
+            <div className=" bg-emerald-900 m-3">
+
+            <div className=" flex justify-center">
+            <h6 className= " mt-6 text-xl mx-4 text-yellow-200"> Creating Sustainable Jobs
+            </h6>
+
+            </div>
+
+            <div className="flex flex-col md:flex-row  m-4 rounded-xl  md:gap-4 justify-center items-center">
+              <div className="p-10 border w-full  md:w-1/2 lg:w-1/2 h-1/2 m-4 border-green-950 flex  justify-center md:order-last">
+              <p className="text-white">
+                &quot;We believe education is the key to breaking the cycle of poverty. Kijani Welfare offers scholarships, school supplies, and after-school programs to ensure that children in underserved communities have the opportunity to learn and succeed.&quot;
+              </p>
+              </div>
+              <div className="p-2 border w-full md:w-1/2 lg:w-1/2 h-72 border-emerald-950 m-4 flex">
+                <div
+                  className="flex-1"
+                  style={{
+                    backgroundImage: "url('/learn.jpeg')",
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                    height: '100%', // Ensure the image covers the full height
+                  }}
+                >
+                  {/* Optional: You can add content here if needed */}
+                </div>
+              </div>
+            </div>
+            </div>
+
+        
 
         {/* Second Section */}
-        <div className="flex flex-col md:flex-row gap-4 bg-emerald-900 p-1 m-4">
-          
-          <h6 className="text-yellow-200 mb-4">Clean Water for All</h6>
-
-          <div className="order-3 md:order-4 p-4  flex-1">
-            <p className="text-white">
-              &quot;We believe education is the key to breaking the cycle of poverty. Kijani Welfare offers scholarships, school supplies, and after-school programs to ensure that children in underserved communities have the opportunity to learn and succeed.&quot;
-            </p>
-          </div>
-          <div className="order-4 md:order-3 flex-1 flex">
-            <div
-              className="bg-green-900 flex-1 flex p-28 justify-center items-center"
-              style={{
-                backgroundImage: "url('/water.jpeg')",
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-              }}
-            >
-              {/* <div className="p-4 text-left">
-                <h1 className="text-yellow-400 text-4xl font-bold mb-4">KIJANI WELFARE</h1>
-                <h2 className="text-2xl">Empowering Communities through Education, Water, and Employment</h2> 
-              </div> */}
-            </div>
-          </div>
-        </div>
-
- {/* Second Section */}
- <div  className=" bg-emerald-900"> 
- {/* <h6 className="text-yellow-200 mb-4">Bridging the Gap in Education</h6> */}
-
- <div className="flex flex-col md:flex-row gap-4 bg-emerald-900 items-center p-1 m-4">
- <h6 className="text-yellow-200  ">Bridging the Gap in Education</h6>
-
-          <div className="order-3 md:order-4 p-1  flex-1">
-            <p className="text-white">
-              &quot;We believe education is the key to breaking the cycle of poverty. Kijani Welfare offers scholarships, school supplies, and after-school programs to ensure that children in underserved communities have the opportunity to learn and succeed.&quot;
-            </p>
-          </div>
-          <div className="order-4 md:order-3 flex-1 flex">
-            <div
-              className="bg-green-900 flex-1 flex p-28 justify-center items-center"
-              style={{
-                backgroundImage: "url('/class.jpg')",
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-              }}
-            >
-              {/* <div className="p-4 text-left">
-                <h1 className="text-yellow-400 text-4xl font-bold mb-4">KIJANI WELFARE</h1>
-                <h2 className="text-2xl">Empowering Communities through Education, Water, and Employment</h2> 
-              </div> */}
-            </div>
-          </div>
-        </div>
-        </div>
+      
 
         <div className="bg-emerald-900 h-20 m-4 p-8 flex justify-center items-center text-white">
           Creating Sustainable Jobs
