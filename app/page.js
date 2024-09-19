@@ -21,8 +21,8 @@ export default function Home() {
         </div>
         
         <div className="bg-emerald-900 m-4 p-5 flex justify-center flex-col items-center text-white relative">
-          <h2 className="text-yellow-300 font-semibold underline text-xl row-span-1">About Us</h2>
-          <p className="items-center row-span-1">Kijani Welfare is a non-profit organization dedicated to transforming lives in underprivileged communities by providing access to education, clean water, and sustainable job opportunities.</p>
+          <h2 className="text-yellow-300 font-semibold underline text-xl">About Us</h2>
+          <p>Kijani Welfare is a non-profit organization dedicated to transforming lives in underprivileged communities by providing access to education, clean water, and sustainable job opportunities.</p>
         </div>
 
         <div className="p-2 m-4 flex flex-col md:flex-row lg:flex-row gap-10 justify-center items-center">
@@ -36,37 +36,84 @@ export default function Home() {
           </div>
         </div>
 
-        <div>
-          <div className="bg-emerald-900 m-4 p-8 flex flex-col justify-center items-center text-white">
-            <h6 className="text-yellow-200 mb-4">Bridging the Gap in Education</h6>
-            <div className="flex flex-row justify-center items-center">
-              <div
-                className="bg-green-900 h-64 w-1/2 flex justify-start items-center text-white"
-                style={{
-                  backgroundImage: "url('/class.jpg')",
-                  backgroundSize: 'cover', 
-                  backgroundPosition: 'center', 
-                }}
-              >
-                <div className="p-4 text-left ">
-                  {/* <h1 className="text-yellow-400 text-4xl font-bold mb-4">KIJANI WELFARE</h1>
-                  <h2 className="text-2xl">Empowering Communities through Education, Water, and Employment</h2> */}
-                </div>
-              </div>
-              <div className="p-4 w-1/2 items-center">
-                <p className="text-white"> &quot;We believe education is the key to breaking the cycle of poverty. Kijani Welfare offers scholarships, school supplies, and after-school programs to ensure that children in underserved communities have the opportunity to learn and succeed.&quot; </p>
-              </div>
+        <div className="bg-emerald-900 m-4 flex flex-col justify-center items-center text-white">
+    <h6 className="text-yellow-200 mb-4">Bridging the Gap in Education</h6>
+    <div className="flex flex-row w-full">
+      <div
+        className="bg-green-900 flex-1 flex justify-center  items-center"
+        style={{
+          backgroundImage: "url('/class.jpg')",
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
+        <div className="p-4 text-left">
+          {/* <h1 className="text-yellow-400 text-4xl font-bold mb-4">KIJANI WELFARE</h1>
+          <h2 className="text-2xl">Empowering Communities through Education, Water, and Employment</h2> */}
+        </div>
+      </div>
+      <div className="p-4 flex-1">
+        <p className="text-white">
+          &quot;We believe education is the key to breaking the cycle of poverty. Kijani Welfare offers scholarships, school supplies, and after-school programs to ensure that children in underserved communities have the opportunity to learn and succeed.&quot;
+        </p>
+      </div>
+    </div>
+  </div>
+
+        {/* Second Section */}
+        <div className="flex flex-col md:flex-row gap-4 bg-emerald-900 p-1 m-4">
+          <div className="order-3 md:order-4 p-4  flex-1">
+            <p className="text-white">
+              &quot;We believe education is the key to breaking the cycle of poverty. Kijani Welfare offers scholarships, school supplies, and after-school programs to ensure that children in underserved communities have the opportunity to learn and succeed.&quot;
+            </p>
+          </div>
+          <div className="order-4 md:order-3 flex-1 flex">
+            <div
+              className="bg-green-900 flex-1 flex p-40 justify-center items-center"
+              style={{
+                backgroundImage: "url('/water.jpeg')",
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+              }}
+            >
+              {/* <div className="p-4 text-left">
+                <h1 className="text-yellow-400 text-4xl font-bold mb-4">KIJANI WELFARE</h1>
+                <h2 className="text-2xl">Empowering Communities through Education, Water, and Employment</h2> 
+              </div> */}
             </div>
           </div>
-          <div className="bg-emerald-900 h-20 m-4 p-8 flex justify-center items-center text-white">
-            Clean Water for All
+        </div>
+
+ {/* Second Section */}
+ <div className="flex flex-col md:flex-row gap-4 bg-emerald-900 p-1 m-4">
+          <div className="order-3 md:order-4 p-4  flex-1">
+            <p className="text-white">
+              &quot;We believe education is the key to breaking the cycle of poverty. Kijani Welfare offers scholarships, school supplies, and after-school programs to ensure that children in underserved communities have the opportunity to learn and succeed.&quot;
+            </p>
           </div>
-          <div className="bg-emerald-900 h-20 m-4 p-8 flex justify-center items-center text-white">
-            Creating Sustainable Jobs
+          <div className="order-4 md:order-3 flex-1 flex">
+            <div
+              className="bg-green-900 flex-1 flex p-36 justify-center items-center"
+              style={{
+                backgroundImage: "url('/class.jpg')",
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+              }}
+            >
+              {/* <div className="p-4 text-left">
+                <h1 className="text-yellow-400 text-4xl font-bold mb-4">KIJANI WELFARE</h1>
+                <h2 className="text-2xl">Empowering Communities through Education, Water, and Employment</h2> 
+              </div> */}
+            </div>
           </div>
         </div>
+
+        <div className="bg-emerald-900 h-20 m-4 p-8 flex justify-center items-center text-white">
+          Creating Sustainable Jobs
+        </div>
+        
         <div>
-          <h7>Amount Raised t& People helped:</h7>
+          <h7>Amount Raised & People helped:</h7>
         </div>
 
         <div className="flex justify-center items-center p-8">
@@ -77,11 +124,10 @@ export default function Home() {
           <h4>Get Involved:</h4>
         </div>
 
-      <Footer/>
+        <Footer/>
         
         {/* This is a comment that was causing an error */}
       </div>
     </>
   );
 }
-
