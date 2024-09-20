@@ -146,8 +146,34 @@ export default function Home() {
           <h3>Real Impact:</h3>
         </div>
 
-        <div className="border border-emerald-900 m-2 flex justify-center items-center p-8">
+        <div className="border border-emerald-900 m-2 flex flex-col justify-center items-center p-8">
           <h4>Get Involved:</h4>
+          <div className=" flex w-full gap-2 text-white">
+            <div className=" bg-emerald-900 w-1/2 flex flex-col justify-center ">
+            <div className="p-2 border h-72 border-emerald-950 m-4 flex">
+                <div
+                  className="flex-1"
+                  style={{
+                    backgroundImage: "url('/vol.jpg')",
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                    height: '100%', // Ensure the image covers the full height
+                  }}
+                >
+                  {/* Optional: You can add content here if needed */}
+                </div>
+              </div>
+              <div className=" flex justify-center">
+              <div className=" bg-yellow-300 p-1 rounded-2xl mb-5"> Volunteer</div>
+
+              </div>
+            </div>
+            <div className=" bg-emerald-900 w-1/2 flex items-center justify-center">
+              <div className=" flex justify-center items-center">
+                  Donate
+              </div>
+            </div>
+          </div>
         </div>
 
         <Footer/>
