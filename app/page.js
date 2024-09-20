@@ -1,6 +1,7 @@
 
 import Image from "next/image";
 import Footer from "@/components/footer";
+import Counter from "@/components/counter";
 
 export default function Home() {
   return (
@@ -127,17 +128,18 @@ export default function Home() {
             </div>
             </div>
 
-        
-
-        {/* Second Section */}
-      
-
-        <div className="bg-emerald-900 h-20 m-4 p-8 flex justify-center items-center text-white">
-          Creating Sustainable Jobs
-        </div>
+       
         
         <div>
-          <h7>Amount Raised & People helped:</h7>
+          <div className='p-2'>
+          <h2 className='text-2xl font-semibold'> Amount Raised & People helped: </h2>
+          <div className=' flex flex-row justify-center gap-24 py-4'>
+            <div className='text-xl font-bold'>People Helped: <Counter endValue={2000} duration={5000} /></div>
+            {/* <div className='text-xl font-bold'>Properties: <Counter endValue={350} duration={5000} /></div> */}
+            <div className='text-xl font-bold'>Total Ammount Raised Ksh. <Counter endValue={50} duration={4000} />M</div>
+          </div>
+        </div>
+
         </div>
 
         <div className="flex justify-center items-center p-8">
