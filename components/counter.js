@@ -23,7 +23,7 @@ const Counter = ({ endValue, duration }) => {
     return () => clearInterval(interval);
   }, [endValue, duration]);
 
-  return <span>{count}</span>;
+  return <span className=' text-green-800'>{count}</span>;
 };
 
 export default Counter;
