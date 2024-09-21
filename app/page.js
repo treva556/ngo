@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Footer from "@/components/footer";
 import Counter from "@/components/counter";
+import DonationSection from "@/components/don2";
 
 export default function Home() {
   return (
@@ -147,12 +148,20 @@ export default function Home() {
 
         </div>
 
-        <div className="flex justify-center items-center p-8">
+        <div className=" ">
+          <div className=" flex justify-center text-2xl font-bold ">
           <h3>Real Impact:</h3>
+
+          </div>
+
+        <div className="flex justify-center items-center p-8">
+          <DonationSection/>
         </div>
+        </div>
+        
 
         <div className="border border-emerald-800 m-2 flex flex-col justify-center items-center p-8">
-          <h4>Get Involved:</h4>
+          <h4 className="flex justify-center text-2xl font-bold" >Get Involved:</h4>
           <div className=" flex items-center flex-col lg:flex-row w-full gap-2 text-white">
             <div className=" bg-emerald-800 w-full lg:w-1/2 flex flex-col justify-center ">
             <div className="p-2 border h-72 border-emerald-950  m-4 flex">
