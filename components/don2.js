@@ -29,7 +29,7 @@ const DonationSection = () => {
     ];
 
   return (
-    <div className="flex flex-row justify-center gap-6">
+    <div className="flex flex-col lg:flex-row md:flex-row justify-center gap-6">
       {donations.map((donation, index) => (
         <DonationCard
           key={index}

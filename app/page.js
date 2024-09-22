@@ -109,17 +109,17 @@ export default function Home() {
 
             </div>
 
-            <div className="flex flex-col md:flex-row  m-4 rounded-xl  md:gap-4 justify-center items-center">
-              <div className="p-10 border w-full  md:w-1/2 lg:w-1/2 h-1/2 m-4 border-green-800 flex  justify-center md:order-last">
+            <div className="flex flex-col md:flex-row m-4 rounded-xl md:gap-4 justify-center items-center">
+              <div className="p-10 border w-full md:w-1/2 lg:w-1/2 h-1/2 m-4 border-green-800 flex  justify-center md:order-last">
               <p className="text-white">
                 &quot;We believe education is the key to breaking the cycle of poverty. Kijani Welfare offers scholarships, school supplies, and after-school programs to ensure that children in underserved communities have the opportunity to learn and succeed.&quot;
               </p>
               </div>
-              <div className="p-2 border w-full md:w-1/2 lg:w-1/2 h-72 border-emerald-800 m-4 flex">
+              <div className="p-2 border w-full md:w-1/2 lg:w-1/2 h-96 border-emerald-800 m-4 flex">
                 <div
                   className="flex-1"
                   style={{
-                    backgroundImage: "url('/learn.jpeg')",
+                    backgroundImage: "url('/learn.jpg')",
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     height: '100%', // Ensure the image covers the full height
@@ -130,9 +130,6 @@ export default function Home() {
               </div>
             </div>
             </div>
-
-       
-        
         <div className=" flex justify-center">
           <div className='p-2'>
             <div className=" flex justify-center">
@@ -182,8 +179,8 @@ export default function Home() {
 
               </div>
             </div>
-            <div className=" bg-emerald-600 w-full mt-8 lg:m-0 lg:w-1/2 p-6  flex items-center justify-center">
-              <button className=" bg-yellow-300 p-1 rounded-xl text-black flex justify-center items-center">
+            <div className=" border border-green-900  w-full mt-8 lg:m-0 lg:w-1/2 p-6  flex items-center justify-center">
+              <button className=" bg-green-800 p-1 rounded-xl text-yellow-300 p-2 flex justify-center items-center">
                   Donate
               </button>
             </div>
