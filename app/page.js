@@ -175,12 +175,12 @@ export default function Home() {
                 </div>
               </div>
               <div className=" flex items-center justify-center">
-              <button className=" text-black bg-yellow-300 p-1 rounded-2xl mb-5"> Volunteer</button>
+              <button className=" text-black bg-yellow-300 p-1 rounded-2xl mb-5 hover:scale-110"> Volunteer</button>
 
               </div>
             </div>
             <div className=" border border-green-900  w-full mt-8 lg:m-0 lg:w-1/2 p-6  flex items-center justify-center">
-              <button className=" bg-green-800 p-1 rounded-xl text-yellow-300 p-2 flex justify-center items-center">
+              <button className=" hover:scale-105 hover:bg-yellow-300 border border-green-800 hover:text-green-900 bg-green-800 rounded-xl text-yellow-300 p-2 flex justify-center items-center">
                   Donate
               </button>
             </div>
